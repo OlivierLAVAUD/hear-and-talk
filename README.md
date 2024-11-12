@@ -11,8 +11,11 @@ This is a Python application that provides speech-to-text transcription and text
 1. Clone the repository & create pyton env:
 
 ```git clone https://github.com/OlivierLAVAUD/hear-and-talk.git```
+
 ```git lfs install```
+
 ```conda create -n Hear-and-Talk python=3.10```
+
 ```conda activate Hear-and-Talk```
 
 2. Install the required Python packages: 
