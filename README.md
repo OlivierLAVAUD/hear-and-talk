@@ -46,7 +46,7 @@ This is a Python application that provides speech-to-text transcription and text
 ``` python websocket_client.py```
 
 - lauching API
-``` python api.py`
+``` python api.py```
 
 2. Open the Gradio interface in your web browser by visiting `http://localhost:7860`.
 
