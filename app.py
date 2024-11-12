@@ -65,7 +65,7 @@ async def synthesize_text(text: str, language: str):
         return {"error": str(e)}
 
 with gr.Blocks() as demo:
-    gr.Markdown("## Hear and Talk]")
+    gr.Markdown("# [Hear and Talk]")
 
     with gr.Row():
         gr.Markdown("### Choisir un modèle Whisper")
