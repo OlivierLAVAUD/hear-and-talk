@@ -21,7 +21,9 @@ This is a Python application that provides speech-to-text transcription and text
 2. Install the required Python packages: 
 
 ```pip install --upgrade pip```
+
 ```pip install --upgrade transformers datasets[audio] accelerate```
+
 ```pip install -r requirements.txt```
 
 
