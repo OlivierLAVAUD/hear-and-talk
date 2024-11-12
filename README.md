@@ -10,7 +10,7 @@ This is a Python application that provides speech-to-text transcription and text
 
 1. Clone the repository & create pyton env:
 
-```git clone OlivierLAVAUD```
+```git clone https://github.com/OlivierLAVAUD/hear-and-talk.git```
 ```git lfs install```
 ```conda create -n Hear-and-Talk python=3.10```
 ```conda activate Hear-and-Talk```
@@ -24,17 +24,20 @@ This is a Python application that provides speech-to-text transcription and text
 
 ## Usage
 
-1. Run the application (fastAPI):
-- FastAPI and Gradio simultaneously
+1. Running:
+
+- using FastAPI with a Gradio Interface, simultaneously
 ``` python app.py```
 
--  Gradio App
+- using straight code whith a Gradio Interface
 ``` python main.py```
 
-- Websocket & Gradio
+- using Websockets server and client (Gradio)
 ``` python websocket_server.py```
 ``` python websocket_client.py```
 
+- lauching API
+``` python api.py`
 
 2. Open the Gradio interface in your web browser by visiting `http://localhost:7860`.
 
