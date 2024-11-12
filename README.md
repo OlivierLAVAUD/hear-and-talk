@@ -32,13 +32,17 @@ This is a Python application that provides speech-to-text transcription and text
 1. Running:
 
 - using FastAPI with a Gradio Interface, simultaneously
+
 ``` python app.py```
 
 - using straight code whith a Gradio Interface
+
 ``` python main.py```
 
 - using Websockets server and client (Gradio)
+
 ``` python websocket_server.py```
+
 ``` python websocket_client.py```
 
 - lauching API
@@ -47,7 +51,6 @@ This is a Python application that provides speech-to-text transcription and text
 2. Open the Gradio interface in your web browser by visiting `http://localhost:7860`.
 
 3. Use the interface to transcribe audio or synthesize speech.
-
 
 4. Use the RESTful API to transcribe audio or synthesize speech by sending POST requests to the `/transcribe` or `/synthesize` endpoints(`http://localhost:8000`).
 
@@ -62,7 +65,7 @@ This is a Python application that provides speech-to-text transcription and text
 
 ## Dependencies
 
-- Python 3.7 or higher
+- Python 3.10
 - [PyTorch](https://pytorch.org/get-started/locally/)
 - [Transformers](https://huggingface.co/transformers/)
 - [gTTS](https://pypi.org/project/gTTS/)
