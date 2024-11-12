@@ -2,6 +2,8 @@
 
 This is a Python application that provides speech-to-text transcription and text-to-speech synthesis functionality using the Whisper model and the gTTS library. The application uses FastAPI to build a RESTful API and Gradio to create a user interface.
 
+![Hear and Talk interface](interface.png)
+
 ## Installation
 
 
@@ -23,10 +25,10 @@ This is a Python application that provides speech-to-text transcription and text
 ## Usage
 
 1. Run the application (fastAPI):
-
+- FastAPI and Gradio simultaneously
 ``` python app.py```
 
-- only Gradio
+-  Gradio App
 ``` python main.py```
 
 - Websocket & Gradio
@@ -37,7 +39,7 @@ This is a Python application that provides speech-to-text transcription and text
 2. Open the Gradio interface in your web browser by visiting `http://localhost:7860`.
 
 3. Use the interface to transcribe audio or synthesize speech.
-![Hear and Talk interface](interface.png)
+
 
 4. Use the RESTful API to transcribe audio or synthesize speech by sending POST requests to the `/transcribe` or `/synthesize` endpoints(`http://localhost:8000`).
 
