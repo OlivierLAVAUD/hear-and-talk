@@ -1,4 +1,5 @@
 openai-whisper
 librosa
 gradio
-gtts 
+gtts
+transformers
